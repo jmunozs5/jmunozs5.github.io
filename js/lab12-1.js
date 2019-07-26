@@ -9,9 +9,9 @@ function addEnds(list) {
       let secondv = list[list.length - 1];
       let sum = firstv + secondv;
     
-      let mid = 7 + ((13 - 7) >>> 1);
     
-      document.getElementById("output").innerHTML = mid;
+    
+      
       document.getElementById("array").innerHTML = list;
   }
   
